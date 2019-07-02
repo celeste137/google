@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+    text-decoration-line: none;
+}
+
+
+div {
+    display: block;
+}
+
+
+#header{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 13px;
+	text-decoration-line: none;
+	color: #444;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 20px;
+}
+
+
+.header{
+	margin: 5px;
+
+}
+
+
+.gb_x {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.gb_1 {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    font-size: 13px;
+    color: white;
+    background-color: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+}
+
+
+#content{
+	margin-top: 120px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding-bottom: 137px;
+}
+
+
+.content{
+	margin-top: 20px;
+
+}
+
+
+.barre{
+	margin-top: 50px;
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.rchr{
+	border: none;
+	width: 480px;
+}
+
+.bouton{
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 40px;
+    line-height: 27px
+}
+ 
+
+
+#footer{
+	height: 122px;
+	background: #f2f2f2;
+    margin-top: 260px;
+    padding-left: 22px;
+    display: flex;
+    flex-flow: column ;
+
+}
+
+.france{
+	font-size: 15px;
+}
+
+
+.truc{
+    flex-wrap: nowrap;
+}
+
+
+.txt1 {
+	font-size: 13px;
+	text-decoration-line: none;
+	color: #444;
+	padding: 2px;
+
+}
